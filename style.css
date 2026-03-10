@@ -26,6 +26,29 @@ div {
     margin-right: auto;
 }
 
+@font-face {
+    font-family:"Ballet";
+    src: url("assets/Ballet-Regular-VariableFont_opsz.ttf")
+}
+
+#heading {
+    text-align: center;
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#heading > h1 {
+    font-size: 56px;
+    font-weight: 100;
+}
+
+#heading > h2 {
+    font-weight: 100;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
 img {
     height: auto;
     max-width: 100%;
